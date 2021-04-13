@@ -26,9 +26,10 @@ dataContentsList = dataContentsDict['data']
 #dataContentsTable = pd.DataFrame(dataContentsDict['data'][][0],dataContentsDict['data'][][1],['Year','$/KWh'])
 yearsObs = []
 for obsIndex in range(len(dataContentsList)): 
-    yearsObs = yearsObs + dataContentsList[obsIndex][0]
+    yearsObs = yearsObs + [dataContentsList[obsIndex][0]]
 
 print(yearsObs)
+print("you so cool")
 
 
 
